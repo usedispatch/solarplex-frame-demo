@@ -1,4 +1,4 @@
-import { getFrameMetadata } from '@coinbase/onchainkit';
+import { getFrameMetadata } from './splx-frame';
 import type { Metadata } from 'next';
 import { NEXT_PUBLIC_URL } from './config';
 
@@ -15,12 +15,14 @@ const frameMetadata = getFrameMetadata({
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
+console.log('>>>>>>>>>>>> ', frameMetadata);
+
 export const metadata: Metadata = {
   title: 'zizzamia.xyz',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
+    title: 'solarplex frame demo',
+    description: 'solarplex frame demo ftw',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
   other: {
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>solarplex frame demo</h1>
     </>
   );
 }
