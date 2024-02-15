@@ -3,12 +3,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../config';
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
-  console.log('req: ', req);
+  const body = await req.json();
+  console.log('req: ', body);
   
-  
+
   // let accountAddress: string | undefined = '';
   // let text: string | undefined = '';
-
   // const body: FrameRequest = await req.json();
   // const { isValid, message } = await getFrameMessage(body, { neynarApiKey: 'NEYNAR_ONCHAIN_KIT' });
 
@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   //   text = body.untrustedData.inputText;
   // }
 
-  const text = 'my button';
+  const text = 'Click to get /api/frame/1';
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
@@ -29,7 +29,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: `${NEXT_PUBLIC_URL}/park-2.png`,
-      post_url: `${NEXT_PUBLIC_URL}/api/frame`,
+      post_url: `${NEXT_PUBLIC_URL}/api/frame/1`,
     }),
   );
 }

@@ -21,6 +21,7 @@ async function getFrameMessage(
 ) 
 // Promise<FrameValidationResponse> 
 {
+  // const response 
   // Validate the message
   // const response = await neynarFrameValidation(
   //   body?.trustedData?.messageBytes,
@@ -41,7 +42,11 @@ async function getFrameMessage(
   //   };
   // }
   // TODO(viksit): we need to do frame validation here at some point
-  return true; // for now
+  return {
+    isValid: true,
+    message: response,
+      };
+  
 }
 
 export { getFrameMessage };
