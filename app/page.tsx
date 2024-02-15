@@ -5,20 +5,22 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Click Me',
+      label: 'button 1',
+    },
+    {
+      label: 'button 2',
     },
   ],
   image: `${NEXT_PUBLIC_URL}/park-1.png`,
   input: {
-    text: 'Tell me a boat story',
+    text: 'click one of these buttons please',
   },
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
-console.log('>>>>>>>>>>>> ', frameMetadata);
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'solarplex frame demo',
   description: 'LFG',
   openGraph: {
     title: 'solarplex frame demo',
