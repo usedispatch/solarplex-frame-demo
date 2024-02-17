@@ -5,10 +5,10 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'button 1',
+      label: 'button robert',
     },
     {
-      label: 'button 2',
+      label: 'button zayyan',
     },
   ],
   image: `${NEXT_PUBLIC_URL}/park-1.png`,

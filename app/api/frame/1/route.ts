@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from '../../../config';
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   const body = await req.json();
   console.log('req: ', body);
-  const text = 'We are on /api/frame/1 now!';
+  const text = 'We are on /api/frame/1 now! ZZZZZ';
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
