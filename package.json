@@ -1,6 +1,6 @@
 {
-  "name": "a-frame-in-100-lines",
-  "version": "0.2.1",
+  "name": "solarplex-frame-demo",
+  "version": "0.2.2",
   "scripts": {
     "build": "rm -rf .next && next build",
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "https://twitter.com/Zizzamia",
+  "author": "https://twitter.com/viksit",
   "license": "MIT",
   "dependencies": {
     "next": "13.5.6",
