@@ -16,9 +16,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             {
               label: `🌲 Text: ${text}`,
             },
+            {
+              label: `Button 2`,
+            },
           ],
           image: `${NEXT_PUBLIC_URL}/park-2.png`,
-          post_url: `${NEXT_PUBLIC_URL}/api/frame/1`,
+          post_url: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
     case 2:
@@ -28,15 +31,18 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         getFrameHtmlResponse({
           buttons: [
             {
+              label: `Button 1`,
+            },
+            {
               label: `🌲 Text: ${text}`,
             },
           ],
-          image: `${NEXT_PUBLIC_URL}/park-2.png`,
-          post_url: `${NEXT_PUBLIC_URL}/api/frame/1`,
+          image: `${NEXT_PUBLIC_URL}/park-1.png`,
+          post_url: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
     default: 
-      text = 'default unhandled case'    
+      text = 'Home base of this frame!'    
       console.log(text)
       return new NextResponse(
         getFrameHtmlResponse({
@@ -46,7 +52,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             },
           ],
           image: `${NEXT_PUBLIC_URL}/park-2.png`,
-          post_url: `${NEXT_PUBLIC_URL}/api/frame/1`,
+          post_url: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
   }
