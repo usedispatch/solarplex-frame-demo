@@ -1,14 +1,12 @@
 # A Frame in 100 lines (or less)
 
-Farcaster Frames in less than 100 lines, and ready to be deployed to Vercel.
+NB: Forked from the original farcaster frames and modified to support Solarplex
+H/T to @zizzamia on [Warpcast](https://warpcast.com/zizzamia) or [X](https://twitter.com/Zizzamia).
 
-To test a Frame, use: https://warpcast.com/~/developers/frames.
 
-And let us know what you build by either mentioning @zizzamia on [Warpcast](https://warpcast.com/zizzamia) or [X](https://twitter.com/Zizzamia).
+Solarplex Frames in less than 100 lines, and ready to be deployed to Vercel.
 
 <br />
-
-Have fun! ⛵️
 
 <br />
 
@@ -197,43 +195,14 @@ export const dynamic = 'force-dynamic';
 
 ## Resources
 
-- [Official Farcaster Frames documentation](https://docs.farcaster.xyz/learn/what-is-farcaster/frames)
-- [Official Farcaster Frame specification](https://docs.farcaster.xyz/reference/frames/spec)
-- [OnchainKit documentation](https://github.com/coinbase/onchainkit)
+- [Solarplex Frames documentation](https://docs.solarplex.xyz)
 
 <br />
 
 ## The Team and Our Community ☁️ 🌁 ☁️
 
-A Farcaster Frame in 100 Lines is all about community. If you have any questions, feel free to reach out to the core maintainers on Twitter or through Farcaster.
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <a href="https://twitter.com/Zizzamia">
-          <img width="80" height="80" src="https://github.com/zizzamia.png?s=100">
-        </a>
-        <br />
-        <a href="https://twitter.com/Zizzamia">Leonardo Zizzamia</a>
-      </td>
-      <td align="center" valign="top">
-        <a href="https://warpcast.com/cnasc">
-          <img width="80" height="80" src="https://github.com/cnasc.png?s=100">
-        </a>
-        <br />
-        <a href="https://warpcast.com/cnasc">Chris Nascone</a>
-      </td>
-      <td align="center" valign="top">
-        <a href="https://twitter.com/0xr0b_eth">
-          <img width="80" height="80" src="https://github.com/robpolak.png?s=100">
-        </a>
-        <br />
-        <a href="https://twitter.com/0xr0b_eth">Rob Polak</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+@solarplex_xyz
+[[add githubs]]
 
 <br />
 

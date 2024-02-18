@@ -1,6 +1,6 @@
-import { getFrameMetadata } from '../splx-frame-lib';
+import { getFrameMetadata } from '../../splx-frame-lib';
 import type { Metadata } from 'next';
-import { NEXT_PUBLIC_URL } from './config';
+import { NEXT_PUBLIC_URL } from '../config';
 
 // This is the first page that Solarplex frame parser sees
 // Solarplex frames support the following spec
@@ -47,10 +47,11 @@ export const metadata: Metadata = {
   },
 };
 
+console.log('netadata', metadata)
 export default function Page() {
   return (
     <>
-      <h1>Welcome to the Solarplex Frames demo</h1>
+      <h1>Welcome to the Solarplex Frames 1 demo</h1>
     </>
   );
 }

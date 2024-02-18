@@ -1,4 +1,4 @@
-import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '../../../splx-frame/index';
+import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '../../../../splx-frame-lib/index';
 import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../../config';
 
