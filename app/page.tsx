@@ -1,4 +1,4 @@
-import { getFrameMetadata } from '../splx-frame-lib';
+import { getFrameMetadata } from '@usedispatch/solarplex-frame-utils';
 import type { Metadata } from 'next';
 import { NEXT_PUBLIC_URL } from './config';
 
