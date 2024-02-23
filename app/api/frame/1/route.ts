@@ -1,4 +1,4 @@
-import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@usedispatch/solarplex-frame-utils';
+import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@usedispatch/solarplex-frame-sdk';
 import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../../config';
 
