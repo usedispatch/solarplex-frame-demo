@@ -15,7 +15,9 @@ const frameMetadata = getFrameMetadata({
       label: 'Button 1',
     },
     {
-      label: 'Button 2',
+      label: 'Txn',
+      post_url: `${NEXT_PUBLIC_URL}/api`,
+      action: 'txn'
     },
   ],
   image: `${NEXT_PUBLIC_URL}/park-1.png`,

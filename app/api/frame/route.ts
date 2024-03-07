@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         }),
       );
     case 2:
-      text = 'button 2 was clicked' 
+      text = 'view transaction on xray!' 
       console.log(text)
       return new NextResponse(
         getFrameHtmlResponse({
@@ -35,10 +35,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             },
             {
               label: `🌲 Text: ${text}`,
+              action: 'post_redirect',
             },
           ],
           image: `${NEXT_PUBLIC_URL}/park-1.png`,
-          post_url: `${NEXT_PUBLIC_URL}/api/frame`,
+          post_url: `https://xray.helius.xyz/tx/${body.untrustedData.txnSignature}`,
         }),
       );
     default: 
