@@ -16,7 +16,7 @@ const frameMetadata = getFrameMetadata({
     },
     {
       label: 'Txn',
-      post_url: `${NEXT_PUBLIC_URL}/api`,
+      post_url: `https://frame-tx.vercel.app/api`,
       action: 'txn'
     },
   ],
