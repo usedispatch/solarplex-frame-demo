@@ -235,14 +235,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@usedispatch/solarplex-frame-sdk@npm:^0.0.9":
-  version: 0.0.9
-  resolution: "@usedispatch/solarplex-frame-sdk@npm:0.0.9"
+"@usedispatch/solarplex-frame-sdk@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "@usedispatch/solarplex-frame-sdk@npm:0.0.10"
   dependencies:
     "@usedispatch/atproto-api": 0.7.8
     axios: ^1.6.7
     cheerio: 1.0.0-rc.12
-  checksum: 1dafb41496dbef6aa0ea62636f7280904849b91a320e28d3411524acd8604bc32383d8b984738e7fddcc01f34b532ac355a1fcc33ec4e1fdc02c23e6cb8d1d81
+  checksum: bae9fdadc33d1b648f0ad595512180fefad8db18edd0c0bf6c257eaa2611e6e7cd8918f22571369c21faba180f7e1ff5811dbf58d2f158a0d9d4e94c467fd2a1
   languageName: node
   linkType: hard
 
@@ -708,7 +708,7 @@ __metadata:
   dependencies:
     "@types/node": ^20.11.8
     "@types/react": 18.2.48
-    "@usedispatch/solarplex-frame-sdk": ^0.0.9
+    "@usedispatch/solarplex-frame-sdk": ^0.0.10
     next: 13.5.6
     prettier: ^3.2.4
     react: ^18.2.0
