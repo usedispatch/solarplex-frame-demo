@@ -39,7 +39,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             },
           ],
           image: `${NEXT_PUBLIC_URL}/park-1.png`,
-          post_url: `https://xray.helius.xyz/tx/${body.untrustedData.txnSignature}`,
+          post_url: `${NEXT_PUBLIC_URL}/api/txn/${body.untrustedData.txnSignature}`,
         }),
       );
     default: 
