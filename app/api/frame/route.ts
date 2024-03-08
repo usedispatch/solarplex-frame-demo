@@ -15,9 +15,6 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             {
               label: `🌲 You submitted the text: ${message.input}`,
             },
-            {
-              label: `Button 2`,
-            },
           ],
           image: `${NEXT_PUBLIC_URL}/park-2.png`,
           post_url: `${NEXT_PUBLIC_URL}/api/frame`,
