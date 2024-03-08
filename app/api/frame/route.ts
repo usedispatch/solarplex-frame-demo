@@ -9,12 +9,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   switch (message?.button) {
     case 1: 
       text = 'button 1 was clicked' 
-      console.log(text)
       return new NextResponse(
         getFrameHtmlResponse({
           buttons: [
             {
-              label: `🌲 Text: ${text}`,
+              label: `🌲 You submitted the text: ${message.input}`,
             },
             {
               label: `Button 2`,

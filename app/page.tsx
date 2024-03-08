@@ -12,10 +12,10 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Button 1',
+      label: 'Submit Text!',
     },
     {
-      label: 'Txn',
+      label: 'Send Memo Txn',
       post_url: `https://frame-tx.vercel.app/api`,
       action: 'txn'
     },
