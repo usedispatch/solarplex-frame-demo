@@ -13,14 +13,14 @@ __metadata:
   linkType: hard
 
 "@atproto/common-web@npm:^0.2.1, @atproto/common-web@npm:^0.2.2, @atproto/common-web@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "@atproto/common-web@npm:0.2.3"
+  version: 0.2.4
+  resolution: "@atproto/common-web@npm:0.2.4"
   dependencies:
     graphemer: ^1.4.0
     multiformats: ^9.9.0
     uint8arrays: 3.0.0
     zod: ^3.21.4
-  checksum: 39b564ab23c4b0dc733f5b7e82a106bf4db7123cd975abf5d8ac0413f7eaf7c715b14b452b8006dc95ed41a9d24526c42847d1cc67f2602a343d266a62e8167b
+  checksum: 9a76ae23f00cb219458df801f30a85a4bdc3e33ea0273965a962fb6e4456f0f4be2a9b4e5ec259d98aabe5474a5bb43f795aea306fa4d4a39a0409be19304ce9
   languageName: node
   linkType: hard
 
@@ -235,14 +235,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@usedispatch/solarplex-frame-sdk@npm:^0.0.10":
-  version: 0.0.10
-  resolution: "@usedispatch/solarplex-frame-sdk@npm:0.0.10"
+"@usedispatch/solarplex-frame-sdk@npm:0.0.11":
+  version: 0.0.11
+  resolution: "@usedispatch/solarplex-frame-sdk@npm:0.0.11"
   dependencies:
     "@usedispatch/atproto-api": 0.7.8
     axios: ^1.6.7
     cheerio: 1.0.0-rc.12
-  checksum: bae9fdadc33d1b648f0ad595512180fefad8db18edd0c0bf6c257eaa2611e6e7cd8918f22571369c21faba180f7e1ff5811dbf58d2f158a0d9d4e94c467fd2a1
+  checksum: 18bb9c352356bc7eb0d35738caaaa236b9b29991cbbffc88f5f974fb5dbed048533195e1d3436907bedb04a826911ed77a69da149c02cf584d1f11d54eeb3c2c
   languageName: node
   linkType: hard
 
@@ -269,13 +269,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.6.7":
-  version: 1.6.7
-  resolution: "axios@npm:1.6.7"
+  version: 1.6.8
+  resolution: "axios@npm:1.6.8"
   dependencies:
-    follow-redirects: ^1.15.4
+    follow-redirects: ^1.15.6
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 87d4d429927d09942771f3b3a6c13580c183e31d7be0ee12f09be6d5655304996bb033d85e54be81606f4e89684df43be7bf52d14becb73a12727bf33298a082
+  checksum: bf007fa4b207d102459300698620b3b0873503c6d47bf5a8f6e43c0c64c90035a4f698b55027ca1958f61ab43723df2781c38a99711848d232cad7accbcdfcdd
   languageName: node
   linkType: hard
 
@@ -426,13 +426,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.15.4":
-  version: 1.15.5
-  resolution: "follow-redirects@npm:1.15.5"
+"follow-redirects@npm:^1.15.6":
+  version: 1.15.6
+  resolution: "follow-redirects@npm:1.15.6"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 5ca49b5ce6f44338cbfc3546823357e7a70813cecc9b7b768158a1d32c1e62e7407c944402a918ea8c38ae2e78266312d617dc68783fac502cbb55e1047b34ec
+  checksum: a62c378dfc8c00f60b9c80cab158ba54e99ba0239a5dd7c81245e5a5b39d10f0c35e249c3379eae719ff0285fff88c365dd446fab19dee771f1d76252df1bbf5
   languageName: node
   linkType: hard
 
@@ -708,7 +708,7 @@ __metadata:
   dependencies:
     "@types/node": ^20.11.8
     "@types/react": 18.2.48
-    "@usedispatch/solarplex-frame-sdk": ^0.0.10
+    "@usedispatch/solarplex-frame-sdk": 0.0.11
     next: 13.5.6
     prettier: ^3.2.4
     react: ^18.2.0
