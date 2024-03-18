@@ -22,22 +22,29 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       );
     case 2:
       text = 'view transaction on xray!' 
-      console.log(text)
-      return new NextResponse(
-        getFrameHtmlResponse({
-          buttons: [
-            {
-              label: `Button 1`,
-            },
-            {
-              label: `🌲 Text: ${text}`,
-              action: 'post_redirect',
-            },
-          ],
-          image: `${NEXT_PUBLIC_URL}/park-1.png`,
-          post_url: `${NEXT_PUBLIC_URL}/api/txn/${body.untrustedData.txnSignature}`,
-        }),
-      );
+      const txn = `${NEXT_PUBLIC_URL}/api/txn/${body.untrustedData.txnSignature}`
+      const res = getFrameHtmlResponse({
+        buttons: [
+          {
+            label: `Button 1`,
+          },
+          {
+            label: `🌲 Text: ${text}`,
+            action: 'post_redirect',
+            post_url: `txn`,
+          },
+          {
+            label: 'Share transaction on Twitter',
+            action: 'share',
+            text: `Check out this transaction I made on a Frame on Solarplex! ${txn}`
+          }
+        ],
+        image: `${NEXT_PUBLIC_URL}/park-1.png`,
+        post_url: `${NEXT_PUBLIC_URL}/api/frame`,
+      })
+
+      console.log('VERSION1', res)
+      return new NextResponse(res);
     default: 
       text = 'Home base of this frame!'    
       console.log(text)
