@@ -43,11 +43,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         post_url: `${NEXT_PUBLIC_URL}/api/frame`,
       })
 
-      console.log('VERSION1', res)
       return new NextResponse(res);
     default: 
       text = 'Home base of this frame!'    
-      console.log(text)
       return new NextResponse(
         getFrameHtmlResponse({
           buttons: [

@@ -49,7 +49,6 @@ export const metadata: Metadata = {
   },
 };
 
-console.log('netadata', metadata)
 export default function Page() {
   return (
     <>
